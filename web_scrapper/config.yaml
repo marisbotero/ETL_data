@@ -16,4 +16,4 @@ news_sites:
     queries:
       homepage_article_links: '.headline a'
       article_body: '.topper-headline h1'
-      article_title: 'article.paywall
+      article_title: 'article.paywall'
