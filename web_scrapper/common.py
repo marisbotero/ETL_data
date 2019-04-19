@@ -1,3 +1,4 @@
+# Archivo de configuración
 import yaml
 
 __config = None
