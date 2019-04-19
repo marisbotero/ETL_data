@@ -1,3 +1,4 @@
+# Main donde se llaman los objectos creados y se guardan los archivos del scrapper en un csv
 import argparse
 import csv
 import datetime

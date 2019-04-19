@@ -1,3 +1,4 @@
+# Objectos que se buscan con los metodos del scrapper
 import requests
 import bs4
 
