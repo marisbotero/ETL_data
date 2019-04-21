@@ -24,7 +24,7 @@ def main(filename):
 def _read_data(filename):
     logger.info('Reading file {}'.format(filename))
 
-    return pd.read_csv(filename)
+    return pd.read_csv(filename, encoding = 'unicode_escape')
 
 
 def _extract_newspaper_uid(filename):
@@ -45,7 +45,7 @@ def _add_newspaper_uid_column(df, newspaper_uid):
 def _extract_host(df):
     logger.info('Extracting host from urls')
     df['host'] = df['url'].apply(lambda url: urlparse(url).netloc)
-
+    
     return df
 
 
